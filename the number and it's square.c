@@ -1,3 +1,4 @@
+/* C Program of squares from given number to 1 */
 #include<stdio.h>
 void main()
 {
