@@ -3,9 +3,9 @@ void main()
 {
 	//  Sample Result	*****
 	//              	****
-	//					***
-	//					**
-	//					*
+	//			***
+	//			**
+	//			*
 	int i=1,j;
 	while(i<=5)
 	{
