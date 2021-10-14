@@ -9,6 +9,7 @@ void main()
 		sum+=number%10;
 		number=number/10;
 	}
+	printf("%d\n",sum);
 	while(sum)
 	{
 		digit+=sum%10;
