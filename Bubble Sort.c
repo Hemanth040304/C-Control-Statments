@@ -1,7 +1,8 @@
+/* Bubble Short */
 #include<stdio.h>
 void main()
 {
-	int i,j,h,n,temp,arr[5];
+	int i,j,n,temp,arr[5];
 	printf("Enter no.of elements in array.\n");
 	scanf("%d",&n);
 	printf("Enter the elements.\n");
