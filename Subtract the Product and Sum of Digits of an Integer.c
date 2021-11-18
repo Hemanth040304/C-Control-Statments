@@ -1,13 +1,14 @@
+/* Subtract the Product and Sum of Digits of an Integer */
 #include<stdio.h>
-void main()
+main()
 {
-	int productOfdigits=1,sumOfdigits=0,number;
-	scanf("%d",&number);
-	while(number)
-	{
-		sumOfdigits+=number%10;
-		productOfdigits*=number%10;
-		number/=10;
-	}
-	printf("%d",productOfdigits-sumOfdigits);
+    int sum=0,pro=1,number;
+    scanf("%d",&number);
+    while(number)
+    {
+        sum+=number%10;
+        pro*=number%10;
+        number/=10;
+    }
+    printf("%d",pro-sum);
 }
